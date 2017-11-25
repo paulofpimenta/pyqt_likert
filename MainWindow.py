@@ -100,7 +100,7 @@ class MainWindow(QMainWindow):
         # For static function call
         # fileDialog = QFileDialog()
         filename = QFileDialog.getOpenFileName(None, 'Open file',
-         'c:\\Users\\Elena Arsevska\\Dropbox\\R\\',"Excel files (*.xls *.xlsx)")
+         '',"Excel files (*.xls *.xlsx)")
         if filename[0]:
             fullFilePath = filename[0]
             file = open(fullFilePath, 'r')
